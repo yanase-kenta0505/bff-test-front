@@ -13,11 +13,10 @@ try {
 
 </script>
 
-
 <template>
   <div>
     <ul>
-      <li v-for="(todo,index) in todos">{{todo.todoname}}</li>
+      <li v-for="(todo,index) in todos">{{todo.attributes.todoname}}</li>
     </ul>
   </div>
 </template>
